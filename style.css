@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    color: white;
+    
+}   
+
+.logo-container {
+    display: flex;
+    justify-content: column; 
+}
+
+ .painel-esquerdo {
+    background: #657EFF; 
+    background: linear-gradient(135deg, #657EFF 0%, #140083 82%);
+    min-height: 100vh;
+    width: 100%;
+} 
+
+.logo-inicial img {
+    width: 60px;
+    padding-top: 20px;
+    margin-left: 20px;
+
+}
+
+.container-inicio {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.container-inicio h1 {
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.container-inicio p {
+    font-weight: lighter;
+    font-size: 20px;
+    text-align:start;
+
+}
+
+.painel-direito {
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+.container-agrupamento {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); 
+    border-radius: 15px; 
+}
+
+.form-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-header h2 {
+    text-align: center;
+    font-weight: normal;
+    color: #4967FD;
+    
+}
+
+.form-header img {
+    width: 50px;
+    margin-right: 20px;
+    height: auto;
+}
+
+.form-subtitulo {
+    font-weight: lighter;
+    text-align: center;
+    color: #8E8E8E;
+    font-size: 14px;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-campos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-campos label {
+    font-weight: normal;
+    color: #4967FD;
+    font-size: 18px;
+}
+
+ .form-linhas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+} 
+
+.form-campos input,.form-campos select,.form-campos textarea {
+    padding: 12px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    color: #495057;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-campos input:focus,.form-campos select:focus,.form-campos textarea:focus {
+    outline: none;
+    border-color: #657EFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+}
+
+.form-campos select {
+    cursor: pointer;
+}
+
+.form-campos textarea {
+    resize: none;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    align-self: flex-end;
+    color: white;
+    border: none;
+    font-family: "Fredoka", sans-serif;
+    font-size: 16px;
+    background: #4967FD;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #80e289;
+    transition: background 0.3s ease;
+}
+
