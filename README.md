@@ -1,10 +1,10 @@
-# 📋 Formulário de Cadastro – Processo Seletivo Apex Solutions
+#  Formulário de Cadastro – Processo Seletivo Apex Solutions
 
 Este projeto consiste em um **formulário de cadastro para participação em processo seletivo** da **Apex Solutions**, empresa de desenvolvimento de software. O formulário coleta informações essenciais dos candidatos, como dados pessoais, stack principal, nível de experiência, projetos relevantes e preferências profissionais.  
 
 ---
 
-## 📖 Descrição  
+##  Descrição  
 
 Este projeto é um **formulário digital de cadastro para processo seletivo da Apex Solutions**, desenvolvido em **HTML, CSS e JavaScript**.  
 O objetivo principal é coletar de forma estruturada as informações de candidatos interessados em participar do processo seletivo, abrangendo dados pessoais, experiência profissional, projetos desenvolvidos, objetivos de carreira e preferências quanto ao modelo e área de atuação.  
@@ -17,7 +17,7 @@ Este projeto pode ser utilizado tanto em processos seletivos reais quanto como b
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 - Interface amigável e responsiva para preenchimento.  
 - Estrutura organizada com campos obrigatórios e opcionais.  
 - Coleta de dados profissionais:  
@@ -41,7 +41,7 @@ Este projeto pode ser utilizado tanto em processos seletivos reais quanto como b
 
 ---
 
-## 📂 Estrutura de Arquivos
+##  Estrutura de Arquivos
 ```bash
 /
 ├── index.html          # Estrutura principal do formulário
