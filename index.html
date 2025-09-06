@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Formulário de adastro para processo seletivo.</title>
+</head>
+<body>
+
+    <div class="logo-container">
+        <div class="painel-esquerdo">
+            <div class="logo-inicial">
+                <img src="img/logo-apex-solutions.png" alt="Logo Apex Solutions">
+            </div>
+    
+            <div class="container-inicio">
+                <h1>Bem-vindo a Apex  <br>Solutions</h1>
+                <p>Se cadastre para participar do processo seletivo em nossa empresa de desenvolvimento  de software.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="painel-direito">
+        <div class="container-agrupamento">
+            <div class="form-header">
+                <img src="/img/logo-apex.png" alt="Logo Apex Solutions">
+                <h2>Cadastro para processo seletivo</h2>
+            </div>
+            <p class="form-subtitulo">Preencha o formulário com suas informações pessoais</p>
+    
+            <form id="form">
+                <div class="form-campos">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" placeholder="Seu nome completo" >
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Seu melhor email">
+                </div>
+    
+                <div class="form-linhas">
+                    <div class="form-campos">
+                        <label for="stack">Stack principais:</label>
+                        <select name="stack" id="stack" placeholder="Selecione sua stack principal">
+                            <option value="">Selecione</option>
+                            <option value="java-sb">Java</option>
+                            <option value="python">Python</option>
+                            <option value="js">JavaScript</option>
+                            <option value="nodejs">Node.js</option>
+                            <option value="kotlin">Kotlin</option>
+                            <option value="ruby">Ruby</option>
+                            <option value="terraform">Terraform</option>
+                            <option value="sql">SQL</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-campos">
+                        <label for="experiencia">Anos de experiência:</label>
+                        <select name="experiencia" id="experiencia">
+                            <option value="">Selecione</option>
+                            <option value="um-ano">0-1 anos</option>
+                            <option value="tres-anos">2-3 anos</option>
+                            <option value="quatro-anos">4-5 anos</option>
+                            <option value="seis-anos">6+ anos</option>
+                        </select>
+                    </div>
+                </div>
+    
+                    <div class="form-campos">
+                        <label for="projetos">Projetos relevantes:</label>
+                        <textarea name="projetos" id="projetos" placeholder="Descreva seus principais projetos relevante e quais impactos eles causaram."></textarea>
+                    </div>
+    
+                    <div class="form-campos">
+                        <label for="senioridade">Nível de Senioridade:</label>
+                        <select id="senioridade">
+                            <option value="">Selecione seu nível</option>
+                            <option value="trainee">Trainee</option>
+                            <option value="junior">Júnior</option>
+                            <option value="pleno">Pleno</option>
+                            <option value="senior">Sênior</option>
+                            <option value="tech-lead">Tech Lead</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-campos">
+                        <label for="objetivo">Objetivo profissional: </label>
+                        <textarea name="objetivo" id="objetivo" placeholder="Explique brevemente quais são suas motivações pessoais para atuar na vaga"></textarea>
+                    </div>
+    
+                    <div class="form-linhas">
+                        <div class="form-campos">
+                            <label for="ingles">Nível inglês:</label>
+                            <select name="ingles" id="ingles">
+                            <option value="">Selecione:</option>
+                            <option value="basico">Básico</option>
+                            <option value="intermerdiario">Intermerdiário</option>
+                            <option value="avançado">Avançado</option>
+                            <option value="fluente">Fluente</option>
+                            <option value="nativo">Nativo</option>
+                        </select>
+                        </div> 
+    
+                        <div class="form-campos">
+                            <label for="trabalho">Modelo de trabalho:</label>
+                            <select name="trabalho" id="trabalho">
+                                <option value="">Selecione</option>
+                                <option value="presencia">Presencial</option>
+                                <option value="hibrido">Híbrido</option>
+                                <option value="remoto">Remoto</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <div class="form-campos">
+                        <label for="area">Área que gostaria de atuar:</label>
+                        <select name="area" id="area">
+                            <option value="">Selecione</option>
+                            <option value="desenvolvimento">Desenvolvimento</option>
+                            <option value="data-science">Data Science</option>
+                            <option value="devops">DevOps</option>
+                            <option value="mobile">Mobile</option>
+                            <option value="frontend">Front-end</option>
+                            <option value="backend">Back-end</option>
+                            <option value="fullstack">Full Stack</option>
+                            <option value="qa">Quality Assurance</option>
+                        </select>
+                    </div>
+             <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </div>
+        </div>
+
+        <script src="/js/script.js"></script>
+        
+</body>
+</html>
