@@ -33,11 +33,11 @@ Este projeto pode ser utilizado tanto em processos seletivos reais quanto como b
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **HTML5** → Estrutura do formulário  
 - **CSS3** → Estilização (arquivo externo `/css/style.css`)  
 - **JavaScript** → Validações e interatividade (arquivo externo `/js/script.js`)  
-- **Google Fonts (Fredoka)** → Tipografia personalizada  
+
 
 ---
 
