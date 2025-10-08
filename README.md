@@ -9,10 +9,6 @@ Este projeto consiste em um **formulário de cadastro para participação em pro
 Este projeto é um **formulário digital de cadastro para processo seletivo da Apex Solutions**, desenvolvido em **HTML, CSS e JavaScript**.  
 O objetivo principal é coletar de forma estruturada as informações de candidatos interessados em participar do processo seletivo, abrangendo dados pessoais, experiência profissional, projetos desenvolvidos, objetivos de carreira e preferências quanto ao modelo e área de atuação.  
 
-O formulário possui um design moderno e responsivo, dividido em dois painéis:  
-- **Painel Esquerdo**: apresenta a identidade visual da empresa e uma mensagem de boas-vindas.  
-- **Painel Direito**: contém o formulário interativo com os campos de preenchimento.  
-
 Este projeto pode ser utilizado tanto em processos seletivos reais quanto como base de aprendizado para **validação de formulários, boas práticas de UI/UX e organização de código front-end**.  
 
 ---
